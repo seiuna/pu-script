@@ -16,8 +16,8 @@ const target=(()=> {
     }
 )();
 const start=(()=>{
-  const d=document.getElementsByClassName("text-[14px] text-[#666]")[0]
-  const t=document.getElementsByClassName("text-[24px] text-[#434447] font-bold")[0]
+  const d=document.getElementsByClassName("text-[14px] text-[#666]")[0] // 报名时间 日期
+  const t=document.getElementsByClassName("text-[24px] text-[#242424] font-bold")[0] // 报名时间
   const time=new Date(d.innerHTML+' '+t.innerHTML);
   return time.getTime();
 })()
